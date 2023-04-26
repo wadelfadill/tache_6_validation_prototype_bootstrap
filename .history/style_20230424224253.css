@@ -1,0 +1,232 @@
+/* ===== variables css ======= */
+:root{
+    --bg-white:#FFFFFF;
+    --bg-orange:#FF9800;
+    --bg-green:#009688;
+    --bg-linear-green: linear-gradient(90deg, rgba(13, 66, 61, 0.9) -22.84%, rgba(12, 199, 181, 0.9) 138.88%),linear-gradient(0deg, #E6E6E6, #E6E6E6);
+    --bg-second-orange:#F44336;
+    --bg-gray:rgba(238, 249, 248, 0.9);
+
+}
+
+/*======== General ============*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: var(--bg-white);
+}
+
+/*============= navbar ================*/
+nav{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: black;
+    background: var(--bg-white);
+    padding-left: 10px;
+}
+nav .navbar-brand img{
+    width: 76px;
+    height: 43.78px;
+}
+nav a.nav-link{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav a.nav-link:hover, nav a.nav-link:focus{
+    color: black;
+}
+nav .btn-primary, nav .btn-primary:hover, nav .btn-primary:focus{
+    background: var(--bg-orange);
+    color: var(--bg-white);
+    border: none;
+    box-shadow: none;
+}
+nav #navbarNav button{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+}
+nav button i{
+    font-size: 40px;
+}
+nav .navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+}
+
+/* =========== home section =========== */
+#home{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.space-vert{
+    width: 100%;
+    height: 400px;
+    background: var(--bg-linear-green);
+}
+.space-vert p{
+    font-family: 'arial';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--bg-white);
+}
+.space-vert .btn-primary, .space-vert .btn-primary:hover, .space-vert .btn-primary:focus{
+    font-family: 'Montserrat';
+    background: var(--bg-second-orange);
+    color: var(--bg-white);
+    border: none;
+    box-shadow: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+.profile{
+    background-image: url("image/Vectors.png");
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: contain;
+    float: end;
+}
+.img{
+    width: 100%;
+    height: 682.83px;
+}
+/*========= formation section ============*/
+#formations .formation{
+    background: var(--bg-green);
+    border-radius: 25px;
+}
+#formations .formation h1{
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+#formations .formation ul{
+    margin-top: 20px;
+}
+#formations .formation ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    font-family: Arial;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+#formations .formation ul li span{
+    display: inline-block;
+    margin-right: 20px;
+}
+#formations .bakeli{
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid var(--bg-green);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#formations .bakeli h1{
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+
+}
+#formations .bakeli p{
+    font-family: 'Arial';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+
+}
+#formations .bakeli button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    background: var(--bg-second-orange);
+    color: #FFFFFF;
+    border: none;
+    margin-top: 30px;
+    align-self: center;
+
+}
+/* =========== cours section =============== */
+#cours{
+    background: var(--bg-white);
+}
+#cours .cours{
+    border-radius: 25px;
+    height: 245px;
+}
+#cours .cours.c1{
+    color: #F44336;
+    border: 1px solid #F44336;
+}
+#cours .cours.c2{
+    color: #009688;
+    border: 1px solid #009688;
+}
+#cours .cours.c3{
+    color: #FF9800;
+    border: 1px solid #FF9800;
+}
+#cours .cours.c4{
+    color: #009688;
+    border: 1px solid #009688;
+}
+#cours .cours img{
+    margin-top: 10px;
+}
+#cours .cours .text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* ============ diplomes section ==============*/
+#diplomes{
+    background: var(--bg-second-orange);
+    color: #FFFFFF;
+}
+#diplomes ul{
+    margin-top: 20px;
+}
+#diplomes ul li{
+    list-style: none;
+    margin-bottom: 50px;
+    align-items: center;
+}
+#diplomes ul li div{
+    display: inline-block;
+
+}
+#diplomes ul li .dlogo{
+    margin-right: 20px;
+}
+#diplomes ul li div span{
+    display: block;
+}

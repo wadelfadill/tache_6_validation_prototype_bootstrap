@@ -1,0 +1,15 @@
+/*======== General ============*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --bg-white:#FFFFFF;
+    --bg-orange:#FF9800;
+
+}

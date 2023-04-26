@@ -1,0 +1,60 @@
+/* ===== variables css ======= */
+:root{
+    --bg-white:#FFFFFF;
+    --bg-orange:#FF9800;
+    --bg-green:#009688;
+    --bg-linear-green: linear-gradient(90deg, rgba(13, 66, 61, 0.9) -22.84%, rgba(12, 199, 181, 0.9) 138.88%),linear-gradient(0deg, #E6E6E6, #E6E6E6);
+    --bg-second-orange:#F44336;
+    --bg-gray:rgba(238, 249, 248, 0.9);
+
+}
+
+/*======== General ============*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: var(--bg-white);
+}
+
+/*============= navbar ================*/
+nav{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: black;
+    background: var(--bg-white);
+    padding-left: 10px;
+}
+nav .navbar-brand img{
+    width: 76px;
+    height: 43.78px;
+}
+nav a.nav-link{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav a.nav-link:hover, nav a.nav-link:focus{
+    color: black;
+}
+nav .btn-primary, nav .btn-primary:hover, nav .btn-primary:focus{
+    background: var(--bg-orange);
+    color: var(--bg-white);
+    border: none;
+    box-shadow: none;
+}
+nav #navbarNav button{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+}
+nav button i{
+    font-size: 40px;
+}
+nav button i:focus{
+    box-shadow: none;
+}
