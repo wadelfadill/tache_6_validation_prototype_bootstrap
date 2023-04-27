@@ -127,6 +127,18 @@ nav .navbar-toggler:focus{
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
+
+}
+.text-icone{
+    margin-bottom: 30px;
+    font-family: Arial;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
 }
 #formations .formation ul li span{
     display: inline-block;

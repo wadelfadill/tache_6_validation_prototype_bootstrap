@@ -127,6 +127,7 @@ nav .navbar-toggler:focus{
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+
 }
 #formations .formation ul li span{
     display: inline-block;
