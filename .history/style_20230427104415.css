@@ -113,6 +113,9 @@ nav .navbar-toggler:focus{
     color: #FFFFFF;
     margin-bottom: 80px;
 }
+#formations .formation ul{
+    justify-content: center;
+}
 #formations .formation ul li{
     list-style: none;
     margin-bottom: 30px;
