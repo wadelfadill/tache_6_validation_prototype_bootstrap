@@ -1,0 +1,457 @@
+/* ===== variables css ======= */
+:root{
+    --bg-white:#FFFFFF;
+    --bg-orange:#FF9800;
+    --bg-green:#009688;
+    --bg-linear-green: linear-gradient(90deg, rgba(13, 66, 61, 0.9) -22.84%, rgba(12, 199, 181, 0.9) 138.88%),linear-gradient(0deg, #E6E6E6, #E6E6E6);
+    --bg-second-orange:#F44336;
+    --bg-gray:rgba(238, 249, 248, 0.9);
+
+}
+
+/*======== General ============*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: var(--bg-white);
+}
+
+/*============= navbar ================*/
+nav{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: black;
+    background: var(--bg-white);
+    padding-left: 10px;
+}
+nav .navbar-brand img{
+    width: 76px;
+    height: 43.78px;
+}
+nav a.nav-link{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav a.nav-link:hover, nav a.nav-link:focus{
+    color: black;
+}
+nav .btn-primary, nav .btn-primary:hover, nav .btn-primary:focus{
+    background: var(--bg-orange);
+    color: var(--bg-white);
+    border: none;
+    box-shadow: none;
+}
+nav #navbarNav .button{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 2px;
+}
+nav button i{
+    font-size: 40px;
+}
+nav .navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+}
+
+/* =========== home section =========== */
+#home{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.space-vert{
+    width: 100%;
+    height: 400px;
+    background: var(--bg-linear-green);
+}
+.space-vert p{
+    font-family: 'arial';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--bg-white);
+}
+.space-vert .btn-primary, .space-vert .btn-primary:hover, .space-vert .btn-primary:focus{
+    font-family: 'Montserrat';
+    background: var(--bg-second-orange);
+    color: var(--bg-white);
+    border: none;
+    box-shadow: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+/* .profile{
+    background-image: url("image/Vectors.png");
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: contain;
+    float: end;
+}
+.img{
+    width: 100%;
+    height: 682.83px;
+} */
+.photo{
+    position: relative;
+    height: max-content;
+    padding-bottom: 70px;
+    
+}
+.vector{
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+.img{
+    position: absolute;
+    top: -20px;
+    left: -2px;
+}
+/*========= formation section ============*/
+#formations .formation{
+    background: var(--bg-green);
+    border-radius: 25px;
+}
+#formations .formation h1{
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+#formations .formation ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    font-family: Arial;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+#formations .formation ul li span{
+    display: inline-block;
+}
+#formations .bakeli{
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid var(--bg-green);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#formations .bakeli h1{
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+
+}
+#formations .bakeli p{
+    font-family: 'Arial';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+
+}
+#formations .bakeli button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    background: var(--bg-second-orange);
+    color: #FFFFFF;
+    border: none;
+    margin-top: 30px;
+    align-self: center;
+
+}
+#formations img{
+    height: 45.12794876098633px;
+    width: 48.999908447265625px;
+
+
+}
+/* =========== cours section =============== */
+#cours{
+    background: var(--bg-white);
+}
+#cours .cours{
+    border-radius: 25px;
+    height: 245px;
+}
+#cours .cours.c1{
+    color: #F44336;
+    border: 1px solid #F44336;
+}
+#cours .cours.c2{
+    color: #009688;
+    border: 1px solid #009688;
+}
+#cours .cours.c3{
+    color: #FF9800;
+    border: 1px solid #FF9800;
+}
+#cours .cours.c4{
+    color: #009688;
+    border: 1px solid #009688;
+}
+#cours .cours img{
+    margin-top: 10px;
+}
+#cours .cours .text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* ============ diplomes section ==============*/
+#diplomes .container-fluid{
+    background: var(--bg-second-orange);
+    color: #FFFFFF;
+    padding: 20px;
+    padding-top: 30px;
+}
+#diplomes h1{
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#diplomes ul{
+    margin-top: 20px;
+}
+#diplomes ul li{
+    list-style: none;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: first baseline;
+}
+#diplomes ul li div{
+    display: inline-block;
+
+}
+#diplomes ul li .dlogo{
+    margin-right: 20px;
+}
+#diplomes ul li div span{
+    display: block;
+}
+#diplomes ul li div .dtitle{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+#diplomes ul li div .dtext{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* =========== coachs section ============== */
+#coach{
+    background: #FFFFFF;
+    margin-top: 40px;
+}
+#coach .row{
+    margin-bottom: 40px;
+}
+#coach h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 30px;
+    color: black;
+}
+#coach p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+    margin-bottom: 40px;
+}
+#coach button{
+    display: block;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: var(--bg-second-orange);
+    margin-top: 50px;
+    color: #E6E6E6;
+    margin: auto;
+    border: none;
+}
+.carousel-item{
+    display: none;
+    overflow: hidden;
+    transition: transform 2s ease-in;
+    padding-bottom: 100px;
+}
+.bloc{
+    padding: 20px;
+    border: 2px solid var(--bg-green);
+    gap: 15px;
+    margin-right: 20px;
+    height: 266px;
+    width: 255px;
+}
+.bloc-p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.carousel-item.active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform-origin: right;
+    transition: transform 0s ease;
+}
+@media screen and (max-width:425px) {
+    .carousel-item.active{
+    transition: transform 1s ease;
+    }
+}
+.carousel-indicators .bouton{
+    display: inline-block !important;
+    margin-top: 50px !important;
+    /* width: 2px !important;
+    height: 2px !important; */
+    border-radius: 100% !important;
+    background: #C4C4C4 !important;
+    /* padding: 10px; */
+    margin-right: 30px;
+}
+/* ========== activites section */
+#activites .container-fluid{
+    background: var(--bg-second-orange);
+}
+#activites h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 40px !important;
+}
+#activites p{
+    margin-bottom: 100px !important;
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 16px;
+}
+#activites button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: var(--bg-second-orange);
+    border: none;
+    box-shadow: 4px 4px 2px 1px rgba(220, 220, 221, 0.2);
+    color: #FFFFFF;
+}
+/* =========== partenaires section =============*/
+#partenaires{
+    background: var(--bg-white);
+    margin-top: 30px !important;
+    padding-bottom: 90px !important;
+}
+#partenaires h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+    margin-bottom: 40px !important;
+    background: #FFFFFF;
+}
+#partenaires .row{
+    background: var(--bg-gray);
+}
+#partenaires .box{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: center !important;
+}
+#partenaires .box img{
+    width: 143.94px;
+    height: 95px;
+}
+#partenaires button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: var(--bg-second-orange);
+    border: none;
+    color: #FFFFFF;
+}
+/* ========== footer section =========== */
+#footer{
+    background: var(--bg-green);
+    padding-top: 30px;
+}
+#footer p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+#footer span{
+    font-size: 20px;
+    padding-right: 20px;
+}
+#footer .row{
+    padding-bottom: 50px;
+}
